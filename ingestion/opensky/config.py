@@ -35,7 +35,7 @@ KAFKA_BOOTSTRAP_SERVERS = os.getenv(
 
 KAFKA_TOPIC = os.getenv(
     "KAFKA_TOPIC",
-    "raw-flight-states",
+    "flight-positions",
 )
 
 KAFKA_CLIENT_ID = os.getenv(
